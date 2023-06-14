@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.cdnfonts.com/css/horror-type');
+body{
+  font-family: DOKTOR Terror;
+  background-color: rgb(224, 224, 224);
+}
+.navbarre{
+  background-color: rgb(0, 0, 0);
+}
+.ravage{
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.ravage:hover{
+  color: white;
+}
+.navtop{
+  padding: 0;
+}
+.navbarmenu{
+  color: white;
+  font-size: 23px;
+}
+.navbarmenu:hover{
+  color: rgb(173, 173, 173);
+  font-size: 30px;
+}
+.bouton{
+  color: white;
+  background-color: none;
+  border: none;
+}
