@@ -69,3 +69,16 @@ body{
   background-color: rgb(0, 0, 0);
   border-color: black;
 }
+/*Carousel*/
+.slide{
+  background-image: url(../../assets/img/bg.png);
+}
+.carousel-control-prev{
+  border: none;
+}
+.carousel-control-prev-icon{
+  border: none;
+}
+.visually-hidden{
+  border: none;
+}
