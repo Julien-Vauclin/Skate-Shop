@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="navbarmenu nav-link" href="#">vetements</a>
+          <a class="navbarmenu nav-link" href="#">Vêtements</a>
         </li>
         <li class="nav-item">
-          <a class="navbarmenu nav-link" href="#">planches</a>
+          <a class="navbarmenu nav-link" href="#">Planches</a>
         </li>
         <li class="nav-item">
-          <a class="navbarmenu nav-link" href="#">accessoires</a>
+          <a class="navbarmenu nav-link" href="#">Accessoires</a>
         </li>
       </ul>
     </div>
