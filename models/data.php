@@ -1,144 +1,304 @@
 <?php
 
 $data = [
-	[
-		"name" => "Tyrone Baardwijk",
-		"phone" => "07 37 48 03 84",
-		"email" => "libero.lacus@hotmail.net",
-		"postalZip" => "84353",
-		"region" => "Franche-Comté"
+	$accessoires => [
+		$bearings => [
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Titanium Roulements",
+				"price" => '29.99€',
+				"img"  => 'bearings1.webp'
+			],
+			[
+				"brand" => "Antix",
+				"name" => "Eclipse Ceramic Roulements",
+				"price" => '59.99€',
+				"img"  => 'bearings2.webp'
+			],
+			[
+				"brand" => "Bronson Speed Co.",
+				"name" => "G3 Roulements",
+				"price" => '42.99€',
+				"img"  => 'bearings3.webp'
+			],
+			[
+				"brand" => "Bones Bearings",
+				"name" => "Reds Bigs Balls Roulements",
+				"price" => '31.99€',
+				"img"  => 'bearings4.webp'
+			],
+			[
+				"brand" => "Shake Junt",
+				"name" => "OG's ABEC 7 Roulements",
+				"price" => '24.99€',
+				"img"  => 'bearings5.webp'
+			],
+			[
+				"brand" => "Andale",
+				"name" => "Abec 7 Roulements",
+				"price" => '24.99€',
+				"img"  => 'bearings6.webp'
+			]
+		],
+		$grip => [
+			[
+				"brand" => "Jessup",
+				"name" => "Ultra 10\" Grip Skate",
+				"price" => '10.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Chess 9\" Grip Skate",
+				"price" => '7.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Blank 9\" Grip Skate",
+				"price" => '5.99€'
+			],
+			[
+				"brand" => "Grizzly",
+				"name" => "Bear Cut Out Goofy 9\" Grip Skate",
+				"price" => '8.99€'
+			],
+			[
+				"brand" => "Mob Grip",
+				"name" => "x Thrasher Shadow Mag 9\" Grip Skate",
+				"price" => '15.99€'
+			],
+			[
+				"brand" => "Mob Grip",
+				"name" => "x Thrasher Orange 9\" Grip Skate",
+				"price" => '14.99€'
+			]
+		],
+		$roues => [
+			[
+				"brand" => "Spitfire",
+				"name" => "Formula Four Multiswirl Classic Roues 53mm 99A 4 Pack",
+				"price" => '69.99€'
+			],
+			[
+				"brand" => "Spitfire",
+				"name" => "Formula Four Radial Full Roues 56mm 97A 4 Pack",
+				"price" => '69.99€'
+			],
+			[
+				"brand" => "Spitfire",
+				"name" => "Formula Four Multiswirl Classic Roues 54mm 99A 4 Pack",
+				"price" => '69.99€'
+			],
+			[
+				"brand" => "Spitfire",
+				"name" => "x Skate Like A Girl Sessions Formula Four Roues 54mm 99A 4 Pack",
+				"price" => '69.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Academy Club Classic ADV Roues 53mm 100A 4 Pack",
+				"price" => '34.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Barbwore Conical ADV Roues 56mm 100A 4 Pack",
+				"price" => '39.99€'
+			]
+		],
+		$tool => [
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Multi Outil-Skate",
+				"price" => '24.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Basic Outil-Skate",
+				"price" => '12.99€',
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Basic Outil-Skate",
+				"price" => '12.99€'
+			],
+			[
+				"brand" => "Silver",
+				"name" => "Basic Outil-Skate",
+				"price" => '31.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Basic Outil-Skate",
+				"price" => '12.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Basic Outil-Skate",
+				"price" => '12.99€'
+			]
+		],
+		$trucks => [
+			[
+				"brand" => "Independent",
+				"name" => "144 Stage 11 Bar Standard Truck 8.25\"",
+				"price" => '44.99€',
+			],
+			[
+				"brand" => "Independent",
+				"name" => "139 Mid Reynolds Block Hollow Truck 8\"",
+				"price" => '44.99€'
+			],
+			[
+				"brand" => "Ace",
+				"name" => "44 AF1 Truck 8.25\"",
+				"price" => '46.99€'
+			],
+			[
+				"brand" => "Independent",
+				"name" => "144 Stage 11 Standard Delfino Hollow Truck 8.25\"",
+				"price" => '42.99€'
+			],
+			[
+				"brand" => "Independent",
+				"name" => "x Slayer 149 Stage 11 Standard Truck 8.5\"",
+				"price" => '39.99€'
+			],
+			[
+				"brand" => "Venture",
+				"name" => "Yuto Great Wave V-Hollow High 5.2\" Truck\"",
+				"price" => '49.99€'
+			]
+		],
+		$wax => [
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Square Skatewax",
+				"price" => '5.99€'
+			],
+			[
+				"brand" => "Almost",
+				"name" => "Wac Puck Skatewax",
+				"price" => '7.99€'
+			],
+			[
+				"brand" => "Magenta",
+				"name" => "Stair Grinder Skatewax",
+				"price" => '6.99€'
+			],
+			[
+				"brand" => "Huf",
+				"name" => "Peak Skatewax",
+				"price" => '9.99€'
+			],
+			[
+				"brand" => "Grizzly",
+				"name" => "Grease Skatewax",
+				"price" => '8.99€'
+			],
+			[
+				"brand" => "Primitive",
+				"name" => "x Dragon Ball Super Goku Skatewax",
+				"price" => '11.99€'
+			]
+		]
 	],
-	[
-		"name" => "Emmanuel Fabre",
-		"phone" => "05 52 39 81 90",
-		"email" => "commodo.tincidunt@google.edu",
-		"postalZip" => "96191",
-		"region" => "Haute-Normandie"
-	],
-	[
-		"name" => "Desiree Bakhuizen",
-		"phone" => "05 82 85 44 25",
-		"email" => "curabitur.dictum.phasellus@outlook.net",
-		"postalZip" => "21566",
-		"region" => "Poitou-Charentes"
-	],
-	[
-		"name" => "Lawrence Aakster",
-		"phone" => "02 63 52 83 16",
-		"email" => "pellentesque.eget.dictum@aol.net",
-		"postalZip" => "58594",
-		"region" => "Centre"
-	],
-	[
-		"name" => "Coby Tailler",
-		"phone" => "01 64 88 77 22",
-		"email" => "aenean@protonmail.couk",
-		"postalZip" => "53882",
-		"region" => "Alsace"
-	],
-	[
-		"name" => "Lev Bezuindenhout",
-		"phone" => "09 73 17 51 85",
-		"email" => "eros@yahoo.ca",
-		"postalZip" => "33088",
-		"region" => "Lorraine"
-	],
-	[
-		"name" => "Illiana Prinsen",
-		"phone" => "06 18 50 51 31",
-		"email" => "est.nunc@protonmail.com",
-		"postalZip" => "92602",
-		"region" => "Champagne-Ardenne"
-	],
-	[
-		"name" => "Pandora Duval",
-		"phone" => "02 26 21 73 17",
-		"email" => "ac.arcu@google.ca",
-		"postalZip" => "60512",
-		"region" => "Bretagne"
-	],
-	[
-		"name" => "Sybill Vincent",
-		"phone" => "09 56 03 31 13",
-		"email" => "dolor.sit.amet@icloud.ca",
-		"postalZip" => "77334",
-		"region" => "Auvergne"
-	],
-	[
-		"name" => "Keith Lachapelle",
-		"phone" => "04 94 42 34 56",
-		"email" => "lorem.ipsum.dolor@outlook.com",
-		"postalZip" => "48498",
-		"region" => "Alsace"
-	],
-	[
-		"name" => "Genevieve Elzinga",
-		"phone" => "07 66 23 35 50",
-		"email" => "vivamus.euismod@outlook.com",
-		"postalZip" => "61719",
-		"region" => "Franche-Comté"
-	],
-	[
-		"name" => "Orlando Romeijnders",
-		"phone" => "05 51 68 86 81",
-		"email" => "ipsum.nunc.id@protonmail.ca",
-		"postalZip" => "89757",
-		"region" => "Corse"
-	],
-	[
-		"name" => "Athena Spijker",
-		"phone" => "07 11 93 61 28",
-		"email" => "integer.sem@aol.couk",
-		"postalZip" => "07871",
-		"region" => "Limousin"
-	],
-	[
-		"name" => "Brianna Segal",
-		"phone" => "04 04 87 51 18",
-		"email" => "ac.metus.vitae@google.net",
-		"postalZip" => "28577",
-		"region" => "Champagne-Ardenne"
-	],
-	[
-		"name" => "Sage Cloutier",
-		"phone" => "09 28 26 68 66",
-		"email" => "semper.nam@icloud.net",
-		"postalZip" => "75632",
-		"region" => "Poitou-Charentes"
-	],
-	[
-		"name" => "Octavius Lavigne",
-		"phone" => "01 56 85 44 73",
-		"email" => "ullamcorper.nisl@hotmail.org",
-		"postalZip" => "44711",
-		"region" => "Île-de-France"
-	],
-	[
-		"name" => "Renee Berg",
-		"phone" => "06 51 74 77 86",
-		"email" => "accumsan.convallis@google.edu",
-		"postalZip" => "58485",
-		"region" => "Nord-Pas-de-Calais"
-	],
-	[
-		"name" => "Dillon Dubois",
-		"phone" => "02 80 78 73 41",
-		"email" => "risus.morbi@hotmail.net",
-		"postalZip" => "77479",
-		"region" => "Franche-Comté"
-	],
-	[
-		"name" => "Justina Bunschoten",
-		"phone" => "06 85 13 49 51",
-		"email" => "arcu.imperdiet@aol.com",
-		"postalZip" => "76452",
-		"region" => "Aquitaine"
-	],
-	[
-		"name" => "Iris Kuiper",
-		"phone" => "06 54 76 76 73",
-		"email" => "malesuada@aol.org",
-		"postalZip" => "05951",
-		"region" => "Champagne-Ardenne"
+	$chapeaux => [
+		$casquette => [
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Backley 5 Panel Casquette",
+				"price" => '44.99€'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Moosam 5 Panel Casquette",
+				"price" => '29.99€'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Rolam Cord Dad Casquette",
+				"price" => '29.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Can Dad Casquette",
+				"price" => '29.99€'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Cavam 5 Panel Casquette",
+				"price" => '29.99€'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Rolam Cord Dad Casquette",
+				"price" => '22.99€'
+			],
+
+		],
+		$bonnet => [
+			[
+				"brand" => "Anuell",
+				"name" => "Soren Bonnet",
+				"price" => '19.99€'
+			],
+			[
+				"brand" => "Skatedeluxe",
+				"name" => "Ufo Bonnet",
+				"price" => '19.99€'
+			],
+			[
+				"brand" => "Antix",
+				"name" => "Orto Bonnet",
+				"price" => '19.99€'
+			],
+			[
+				"brand" => "Wasted Paris",
+				"name" => "Waffle London Cross Bonnet",
+				"price" => '34.99€'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Warper Bonnet",
+				"price" => '19.99€'
+			],
+			[
+				"brand" => "Nike SB",
+				"name" => "Sportswear Fisherman Bonnet",
+				"price" => '22.99€'
+			]
+		],
+		$bob => [
+			[
+				"brand" => "Vans",
+				"name" => "Patch Bucket Chapeau",
+				"price" => '41.99€'
+			],
+			[
+				"brand" => "Antix",
+				"name" => "Vaux Bucket Chapeau",
+				"price" => '39.99€'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Heston Bucket Chapeau",
+				"price" => '64.99€'
+			], [
+				"brand" => "Nike SB",
+				"name" => "Sportswear Bucket Chapeau",
+				"price" => '24.99€'
+			],
+			[
+				"brand" => "Dickies",
+				"name" => "Clarks Grove Bucket Chapeau",
+				"price" => '34.99€'
+			],
+			[
+				"brand" => "DC",
+				"name" => "x Butter Goods Bucket Chapeau",
+				"price" => '29.99€'
+			]
+
+		]
+
 	]
 ];
