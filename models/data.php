@@ -551,6 +551,230 @@ $data = [
 			"name" => "Iridescent Dot 7.75\" Planche de skateboard",
 			"price" => '57.99€',
 			"img"  => 'planche21.webp'
-		]
-	]
+		],
+	],
+	$shoes => [
+		[
+			"brand" => "New Balance Numeric",
+			"name" => "808 Tiago Chaussure",
+			"price" => '114.90€',
+			"img"  => 'shoes1.webp'
+		],
+		[
+			"brand" => "Nike SB",
+			"name" => "Zoom Blazer Mid Iso Chaussure",
+			"price" => '89.90€',
+			"img"  => 'shoes2.webp'
+		],
+		[
+			"brand" => "Vans",
+			"name" => "Kyle Walker Chaussure",
+			"price" => '89.90€',
+			"img"  => 'shoes3.webp'
+		],
+		[
+			"brand" => "Nike SB",
+			"name" => "Zoom Blazer Mid Premium Chaussure",
+			"price" => '109.90€',
+			"img"  => 'shoes4.webp'
+		],
+		[
+			"brand" => "Nike SB",
+			"name" => "Force 58 Chaussure",
+			"price" => '74.90€',
+			"img"  => 'shoes5.webp'
+		],
+		[
+			"brand" => "És",
+			"name" => "Accel OG Penny RS Chaussure",
+			"price" => '99.90€',
+			"img"  => 'shoes6.webp'
+		],
+		[
+			"brand" => "Nike SB",
+			"name" => "Zoom Blazer Mid Chaussure",
+			"price" => '89.90€',
+			"img"  => 'shoes7.webp'
+		],
+		[
+			"brand" => "Vans",
+			"name" => "Rowan Chaussure",
+			"price" => '84.90€',
+			"img"  => 'shoes8.webp'
+		],
+		[
+			"brand" => "Vans",
+			"name" => "Kyle Walker Chaussure",
+			"price" => '94.90€',
+			"img"  => 'shoes9.webp'
+		],
+		[
+			"brand" => "New Balance Numeric",
+			"name" => "508 Chaussure",
+			"price" => '84.90€',
+			"img"  => 'shoes10.webp'
+		],
+		[
+			"brand" => "Vans",
+			"name" => "Classic Slip-On Chaussure",
+			"price" => '69.90€',
+			"img"  => 'shoes11.webp'
+		],
+		[
+			"brand" => "Etnies",
+			"name" => "x Bones M.C Rap Low Chaussure",
+			"price" => '109.90€',
+			"img"  => 'shoes12.webp'
+		],
+	],
+	$hauts => [
+		$sweat => [
+			[
+				"brand" => "Baker",
+				"name" => "Brand Logo sweat à capuche",
+				"price" => '99.99€',
+				"img"  => 'sweat1.webp'
+			],
+			[
+				"brand" => "Deathwish",
+				"name" => "Deathspray sweat à capuche",
+				"price" => '84.99€',
+				"img"  => 'sweat2.webp'
+			],
+			[
+				"brand" => "Nike SB",
+				"name" => "Box Logo sweat à capuche",
+				"price" => '84.99€',
+				"img"  => 'sweat3.webp'
+			],
+			[
+				"brand" => "Thrasher",
+				"name" => "Roja Logo sweat à capuche",
+				"price" => '89.99€',
+				"img"  => 'sweat4.webp'
+			],
+			[
+				"brand" => "Santa Cruz",
+				"name" => "Flamez Not A Dot sweat à capuche",
+				"price" => '54.99€',
+				"img"  => 'sweat5.webp'
+			],
+			[
+				"brand" => "Creature",
+				"name" => "Logo sweat à capuche",
+				"price" => '89.99€',
+				"img"  => 'sweat6.webp'
+			],
+			[
+				"brand" => "Volcom",
+				"name" => "Puffstone sweat à capuche",
+				"price" => '74.99€',
+				"img"  => 'sweat7.webp'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Basic sweat à capuche",
+				"price" => '94.99€',
+				"img"  => 'sweat8.webp'
+			],
+			[
+				"brand" => "Independent",
+				"name" => "Abyss sweat à capuche",
+				"price" => '64.99€',
+				"img"  => 'sweat9.webp'
+			],
+			[
+				"brand" => "DC",
+				"name" => "Dryden Neige Chandail à Capuchon",
+				"price" => '94.99€',
+				"img"  => 'sweat10.webp'
+			],
+			[
+				"brand" => "Spitfire",
+				"name" => "Old E Bighead Fill sweat à capuche",
+				"price" => '99.99€',
+				"img"  => 'sweat11.webp'
+			],
+			[
+				"brand" => "RVCA",
+				"name" => "Mascot sweat à capuche",
+				"price" => '59.99€',
+				"img"  => 'sweat12.webp'
+			],
+		],
+		$tshirt => [
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Fibo Organic T-Shirt",
+				"price" => '44.99€',
+				"img"  => 'tshirt1.webp'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Copader Organic T-Shirt",
+				"price" => '34.99€',
+				"img"  => 'tshirt2.webp'
+			],
+			[
+				"brand" => "Nike SB",
+				"name" => "Globe Guy T-Shirt",
+				"price" => '39.99€',
+				"img"  => 'tshirt3.webp'
+			],
+			[
+				"brand" => "Santa Cruz",
+				"name" => "Ultimate Flame Dot T-Shirt",
+				"price" => '37.99€',
+				"img"  => 'tshirt4.webp'
+			],
+			[
+				"brand" => "Nike SB",
+				"name" => "Wheel T-Shirt",
+				"price" => '39.99€',
+				"img"  => 'tshirt5.webp'
+			],
+			[
+				"brand" => "Anuell",
+				"name" => "Warper Organic T-Shirt",
+				"price" => '34.99€',
+				"img"  => 'tshirt6.webp'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Chase T-Shirt",
+				"price" => '39.99€',
+				"img"  => 'tshirt7.webp'
+			],
+			[
+				"brand" => "Santa Cruz",
+				"name" => "Winkowski Volcano T-Shirt",
+				"price" => '34.99€',
+				"img"  => 'tshirt8.webp'
+			],
+			[
+				"brand" => "Vans",
+				"name" => "Rhythm Pup T-Shirt",
+				"price" => '37.99€',
+				"img"  => 'tshirt9.webp'
+			],
+			[
+				"brand" => "Patagonia",
+				"name" => "P-6 Logo Responsibili T-Shirt",
+				"price" => '44.99€',
+				"img"  => 'tshirt10.webp'
+			],
+			[
+				"brand" => "RIPNDIP",
+				"name" => "Mind Warp T-Shirt",
+				"price" => '44.99€',
+				"img"  => 'tshirt11.webp'
+			],
+			[
+				"brand" => "Thrasher",
+				"name" => "Skate-Goat T-Shirt",
+				"price" => '39.99€',
+				"img"  => 'tshirt12.webp'
+			],
+		],
+	],
 ];
