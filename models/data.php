@@ -346,5 +346,211 @@ $data = [
 				"img"  => 'casquette6.webp'
 			],
 		],
+	],
+	$pantalon => [
+		$jean => [
+			[
+				"brand" => "Antix",
+				"name" => "Atlas Jeans",
+				"price" => '99.99€',
+				"img"  => 'jean1.webp'
+			],
+			[
+				"brand" => "Antix",
+				"name" => "Slack Pantalons",
+				"price" => '79.99€',
+				"img"  => 'jean2.webp'
+			],
+			[
+				"brand" => "Dickies",
+				"name" => "Valley Grande Double Knee Pantalons",
+				"price" => '79.99€',
+				"img"  => 'jean3.webp'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Simple Pant Norco Jeans",
+				"price" => '9.99€',
+				"img"  => 'jean4.webp'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Newel Pant Ford Corduroy Pantalons",
+				"price" => '99.99€',
+				"img"  => 'jean5.webp'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Newel Pant Ford Corduroy Pantalons",
+				"price" => '99.99€',
+				"img"  => 'jean6.webp'
+			],
+		],
+		$short => [
+			[
+				"brand" => "Patagonia",
+				"name" => "Funhoggers Shorts",
+				"price" => '79.99€',
+				"img"  => 'short1.webp'
+			],
+			[
+				"brand" => "Carhartt WIP",
+				"name" => "Chase Swim Boardshorts",
+				"price" => '59.99€',
+				"img"  => 'short2.webp'
+			],
+			[
+				"brand" => "Santa Cruz",
+				"name" => "All Over Boardshorts",
+				"price" => '39.99€',
+				"img"  => 'short3.webp'
+			],
+			[
+				"brand" => "Nike SB",
+				"name" => "El Chino Shorts",
+				"price" => '74.99€',
+				"img"  => 'short4.webp'
+			],
+			[
+				"brand" => "Volcom",
+				"name" => "Labored Utility Shorts",
+				"price" => '94.99€',
+				"img"  => 'short5.webp'
+			],
+			[
+				"brand" => "Vans",
+				"name" => "x Quasi Window Elastic Shorts",
+				"price" => '67.99€',
+				"img"  => 'short6.webp'
+			],
+		],
+	],
+	$planches => [
+		[
+			"brand" => "Creature",
+			"name" => "Logo Outline Stumps 8.25\" Planche de skateboard",
+			"price" => '79.99€',
+			"img"  => 'planche1.webp'
+		],
+		[
+			"brand" => "Skatedeluxe",
+			"name" => "Croc 8.5\" Planche de skateboard",
+			"price" => '59.99€',
+			"img"  => 'planche2.webp'
+		],
+		[
+			"brand" => "Wasted Paris",
+			"name" => "Arizona 8\" Planche de skateboard",
+			"price" => '69.99€',
+			"img"  => 'planche3.webp'
+		],
+		[
+			"brand" => "Baker",
+			"name" => "Team Brand Logo 8\" Planche de skateboard",
+			"price" => '89.99€',
+			"img"  => 'planche4.webp'
+		],
+		[
+			"brand" => "Deathwish",
+			"name" => "Foy Crush 8.25\" Planche de skateboard",
+			"price" => '89.99€',
+			"img"  => 'planche5.webp'
+		],
+		[
+			"brand" => "Polar",
+			"name" => "Sanbongi Mt. Fuji 8.25\" Planche de skateboard",
+			"price" => '69.99€',
+			"img"  => 'planche6.webp'
+		],
+		[
+			"brand" => "Element",
+			"name" => "x Tetsunori Jaakko 8\" Planche de skateboard",
+			"price" => '69.99€',
+			"img"  => 'planche7.webp'
+		],
+		[
+			"brand" => "Real",
+			"name" => "Spectrum Distortion 8.25\" Planche de skateboard",
+			"price" => '84.99€',
+			"img"  => 'planche8.webp'
+		],
+		[
+			"brand" => "DGK",
+			"name" => "Friends 8.06\" Planche de skateboard",
+			"price" => '59.99€',
+			"img"  => 'planche9.webp'
+		],
+		[
+			"brand" => "Element",
+			"name" => "x Timber Flood Dragon 8.5\" Planche de skateboard",
+			"price" => '69.99€',
+			"img"  => 'planche10.webp'
+		],
+		[
+			"brand" => "Chocolate",
+			"name" => "Capps Sasquatch 8.5\" Planche de skateboard",
+			"price" => '69.99€',
+			"img"  => 'planche11.webp'
+		],
+		[
+			"brand" => "Enjoi",
+			"name" => "Haslam Round 3.8\" Planche de skateboard",
+			"price" => '64.99€',
+			"img"  => 'planche12.webp'
+		],
+		[
+			"brand" => "Inpeddo",
+			"name" => "B Patrol 8.25\" Planche de skateboard",
+			"price" => '59.99€',
+			"img"  => 'planche13.webp'
+		],
+		[
+			"brand" => "Über",
+			"name" => "Flowers 8.5\" Planche de skateboard",
+			"price" => '54.99€',
+			"img"  => 'planche14.webp'
+		],
+		[
+			"brand" => "Flip",
+			"name" => "Majerus Blacklight 8.38\" Planche de skateboard",
+			"price" => '69.99€',
+			"img"  => 'planche15.webp'
+		],
+		[
+			"brand" => "Jart",
+			"name" => "Life 8\" Planche de skateboard",
+			"price" => '49.99€',
+			"img"  => 'planche16.webp'
+		],
+		[
+			"brand" => "Plan B",
+			"name" => "Full Dipper Shifted 8.375\" Planche de skateboard",
+			"price" => '52.99€',
+			"img"  => 'planche17.webp'
+		],
+		[
+			"brand" => "Blind",
+			"name" => "Way Nuke Baby 1991 Reissue 8.375\" Planche de skateboard",
+			"price" => '74.99€',
+			"img"  => 'planche18.webp'
+		],
+		[
+			"brand" => "Birdhouse",
+			"name" => "B Logo 8.375\" Planche de skateboard",
+			"price" => '59.99€',
+			"img"  => 'planche19.webp'
+		],
+		[
+			"brand" => "Girl",
+			"name" => "Malto 93 Til 8\" Planche de skateboard",
+			"price" => '74.99€',
+			"img"  => 'planche20.webp'
+		],
+		[
+			"brand" => "Santa Cruz",
+			"name" => "Iridescent Dot 7.75\" Planche de skateboard",
+			"price" => '57.99€',
+			"img"  => 'planche21.webp'
+		]
 	]
 ];
