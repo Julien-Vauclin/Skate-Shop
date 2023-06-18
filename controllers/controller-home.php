@@ -45,9 +45,13 @@ foreach ($data as $category => $items) {
         // Parcourir les éléments de la sous-catégorie
         foreach ($subItems as $item) {
             echo '<div>';
+            echo '<img src="' . $item['img'] . '"';
+            echo '<br>';
             echo '<p>' . $item['brand'] . '</p>';
             echo '<p>' . $item['name'] . '</p>';
             echo '<p>' . $item['price'] . '</p>';
+            echo '<br>';
+            echo '<br>';
             echo '</div>';
         }
     }

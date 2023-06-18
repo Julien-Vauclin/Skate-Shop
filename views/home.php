@@ -97,34 +97,34 @@
 </div> -->
 <!--fonction pour afficher images-->
 <?php
-function afficherImages($limit = 3)
-{
-    // Inclure le fichier data.php
-    require_once '../models/data.php';
+// function afficherImages($limit = 3)
+// {
+//     // Inclure le fichier data.php
+//     require_once '../models/data.php';
 
-    // Vérifier si les tableaux $data et $planches existent
-    if (isset($data) && is_array($data) && isset($data['planches']) && is_array($data['planches'])) {
-        echo '<div class="row mx-0 rangee">';
-        $i = 1;
-        foreach ($data['planches'] as $planche) {
-            if ($i > $limit) {
-                break;
-            }
-            echo '<div class="card col-md-6 col-sm-12 col-lg-4">';
-            echo '<img src="../assets/img/planches/' . $planche["img"] . '" alt="' . $planche["brand"] . ' ' . $planche["name"] . '" class="image card-img-top">';
-            echo '<div class="card-body">';
-            echo '<h5 class="card-title">' . $planche["brand"] . ' ' . $planche["name"] . '</h5>';
-            echo '<p class="card-text">' . $planche["price"] . '</p>';
-            echo '<a href="#" class="btn btn-primary">Découvrir</a>';
-            echo '</div>';
-            echo '</div>';
-            $i++;
-        }
-        echo '</div>';
-    } else {
-        echo 'Aucune donnée disponible.';
-    }
-}
+//     // Vérifier si les tableaux $data et $planches existent
+//     if (isset($data) && is_array($data) && isset($data['planches']) && is_array($data['planches'])) {
+//         echo '<div class="row mx-0 rangee">';
+//         $i = 1;
+//         foreach ($data['planches'] as $planche) {
+//             if ($i > $limit) {
+//                 break;
+//             }
+//             echo '<div class="card col-md-6 col-sm-12 col-lg-4">';
+//             echo '<img src="../assets/img/planches/' . $planche["img"] . '" alt="' . $planche["brand"] . ' ' . $planche["name"] . '" class="image card-img-top">';
+//             echo '<div class="card-body">';
+//             echo '<h5 class="card-title">' . $planche["brand"] . ' ' . $planche["name"] . '</h5>';
+//             echo '<p class="card-text">' . $planche["price"] . '</p>';
+//             echo '<a href="#" class="btn btn-primary">Découvrir</a>';
+//             echo '</div>';
+//             echo '</div>';
+//             $i++;
+//         }
+//         echo '</div>';
+//     } else {
+//         echo 'Aucune donnée disponible.';
+//     }
+// }
 ?>
 <!-- fin fonction pour afficher images -->
 <?php include "components/footer.php" ?>
