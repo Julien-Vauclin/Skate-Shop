@@ -1,8 +1,8 @@
 <?php
 
 $data = [
-	$accessoires => [
-		$bearings => [
+	'accessoires' => [
+		'bearings' => [
 			[
 				"brand" => "Skatedeluxe",
 				"name" => "Titanium Roulements",
@@ -40,7 +40,7 @@ $data = [
 				"img"  => 'bearings6.webp'
 			]
 		],
-		$grip => [
+		'grip' => [
 			[
 				"brand" => "Jessup",
 				"name" => "Ultra 10\" Grip Skate",
@@ -78,7 +78,7 @@ $data = [
 				"img"  => 'grip6.webp'
 			]
 		],
-		$roues => [
+		'roues' => [
 			[
 				"brand" => "Spitfire",
 				"name" => "Formula Four Multiswirl Classic Roues 53mm 99A 4 Pack",
@@ -116,7 +116,7 @@ $data = [
 				"img"  => 'roues6.webp'
 			]
 		],
-		$tool => [
+		'tool' => [
 			[
 				"brand" => "Skatedeluxe",
 				"name" => "Multi Outil-Skate",
@@ -154,7 +154,7 @@ $data = [
 				"img"  => 'tool6.webp'
 			]
 		],
-		$trucks => [
+		'trucks' => [
 			[
 				"brand" => "Independent",
 				"name" => "144 Stage 11 Bar Standard Truck 8.25\"",
@@ -192,7 +192,7 @@ $data = [
 				"img"  => 'trucks6.webp'
 			]
 		],
-		$wax => [
+		'wax' => [
 			[
 				"brand" => "Skatedeluxe",
 				"name" => "Square Skatewax",
@@ -231,8 +231,8 @@ $data = [
 			]
 		]
 	],
-	$chapeaux => [
-		$bob => [
+	'chapeaux' => [
+		'bob' => [
 			[
 				"brand" => "Vans",
 				"name" => "Patch Bucket Chapeau",
@@ -270,7 +270,7 @@ $data = [
 			]
 
 		],
-		$bonnet => [
+		'bonnet' => [
 			[
 				"brand" => "Anuell",
 				"name" => "Soren Bonnet",
@@ -308,7 +308,7 @@ $data = [
 				"img"  => 'bonnet6.webp'
 			]
 		],
-		$casquette => [
+		'casquette' => [
 			[
 				"brand" => "Carhartt WIP",
 				"name" => "Backley 5 Panel Casquette",
@@ -347,8 +347,8 @@ $data = [
 			],
 		],
 	],
-	$pantalon => [
-		$jean => [
+	'pantalon' => [
+		'jean' => [
 			[
 				"brand" => "Antix",
 				"name" => "Atlas Jeans",
@@ -386,7 +386,7 @@ $data = [
 				"img"  => 'jean6.webp'
 			],
 		],
-		$short => [
+		'short' => [
 			[
 				"brand" => "Patagonia",
 				"name" => "Funhoggers Shorts",
@@ -425,7 +425,7 @@ $data = [
 			],
 		],
 	],
-	$planches => [
+	'planches' => [
 		[
 			"brand" => "Creature",
 			"name" => "Logo Outline Stumps 8.25\" Planche de skateboard",
@@ -553,7 +553,7 @@ $data = [
 			"img"  => 'planche21.webp'
 		],
 	],
-	$shoes => [
+	'shoes' => [
 		[
 			"brand" => "New Balance Numeric",
 			"name" => "808 Tiago Chaussure",
@@ -627,8 +627,8 @@ $data = [
 			"img"  => 'shoes12.webp'
 		],
 	],
-	$hauts => [
-		$sweat => [
+	'hauts' => [
+		'sweat' => [
 			[
 				"brand" => "Baker",
 				"name" => "Brand Logo sweat à capuche",
@@ -702,7 +702,7 @@ $data = [
 				"img"  => 'sweat12.webp'
 			],
 		],
-		$tshirt => [
+		'tshirt' => [
 			[
 				"brand" => "Carhartt WIP",
 				"name" => "Fibo Organic T-Shirt",

@@ -32,3 +32,23 @@ function card($data, $limit = 9)
     }
 }
 // FIN TEST
+// Boucle affichage articles
+include('../models/data.php');
+
+// Parcourir les données dans la variable $data
+foreach ($data as $category => $items) {
+    echo '<h2>' . ucfirst($category) . '</h2>'; // Afficher le nom de la catégorie en majuscule
+
+    foreach ($items as $subCategory => $subItems) {
+        echo '<h3>' . ucfirst($subCategory) . '</h3>'; // Afficher le nom de la sous-catégorie en majuscule
+
+        // Parcourir les éléments de la sous-catégorie
+        foreach ($subItems as $item) {
+            echo '<div>';
+            echo '<p>' . $item['brand'] . '</p>';
+            echo '<p>' . $item['name'] . '</p>';
+            echo '<p>' . $item['price'] . '</p>';
+            echo '</div>';
+        }
+    }
+}
