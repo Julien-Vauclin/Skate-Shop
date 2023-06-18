@@ -78,6 +78,7 @@ body{
 .card{
   margin-bottom: 50px;
   width: 500px;
+  margin: 0 auto;
 }
 .image{
   width: 65%;

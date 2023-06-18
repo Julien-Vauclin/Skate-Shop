@@ -127,4 +127,8 @@
 // }
 ?>
 <!-- fin fonction pour afficher images -->
+<!--fonction-->
+<?php afficherAccueil($data) ?>
+<!--footer-->
 <?php include "components/footer.php" ?>
+<!-- test -->
