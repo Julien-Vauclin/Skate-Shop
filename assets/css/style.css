@@ -32,6 +32,12 @@ body{
 .navbarmenu:hover{
   color: rgb(173, 173, 173);
   font-size: 30px;
+  transition: 0.2s;
+}
+.navbarmenu:not(:hover){
+  color: white;
+  font-size: 23px;
+  transition: 0.2s;
 }
 .bouton{
   color: white;
@@ -53,6 +59,34 @@ body{
   }
   .skullgrand{
     display: none;
+  }
+}
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 10px;
+  font-size: 22px;
+}
+.titrecarousel{
+  font-size: 45px;
+}
+@media (max-width:1500px) {
+  .carousel-caption{
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 10px;
+  font-size: 18px;
+  }
+  .titrecarousel{
+    font-size: 35px;
+  }
+}
+@media (max-width:1000px) {
+  .carousel-caption{
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 10px;
+  font-size: 15px;
+  }
+  .titrecarousel{
+    font-size: 25px;
   }
 }
 /*footer*/

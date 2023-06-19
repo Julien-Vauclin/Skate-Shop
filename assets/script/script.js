@@ -6,4 +6,8 @@ function toggleMenu() {
     menu.style.display = 'block';
   }
 }
-//CAROUSEL
+// Défilement carousel
+function autoScroll() {
+  $('#carouselExampleCaptions').carousel('next');
+}
+setInterval(autoScroll, 7000);

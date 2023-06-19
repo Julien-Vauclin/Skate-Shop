@@ -12,22 +12,23 @@
             <div class="carousel-item active">
                 <img src="../assets/img/carousel/slide1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Mid90s</h5>
-                    <p>L'humour glissant du casting de Mid90s.<br>Ne manquez pas cette vidéo !</p>
+                    <h5 class="titrecarousel">Mid90s</h5>
+                    <p>L'humour glissant du casting de Mid90s.<br><a href="https://www.youtube.com/watch?v=lBhGRGUKSNI&ab_channel=TransworldSkateboarding">Ne manquez pas cette vidéo !</p>
+                    </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="../assets/img/carousel/slide2.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Illegal Civ</h5>
-                    <p>Retour sur la vie de Mikey Alfred, ses potes, et son entreprise</p>
+                    <h5 class="titrecarousel">Illegal Civ</h5>
+                    <p><a href="https://i-d.vice.com/en/article/9kpvyz/illegal-civilization-is-more-than-just-an-la-skate-crew-mikey-alfred-interview">Retour sur la vie de Mikey Alfred, ses potes, et son entreprise</a> </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="../assets/img/carousel/slide3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>X-Games</h5>
-                    <p>À (re)voir absolument !<br>La compétition de Pacifio Skateboard Vert de 2021</p>
+                    <h5 class="titrecarousel">X-Games</h5>
+                    <p><a href="https://www.youtube.com/watch?v=M_5oD1RiuFg&ab_channel=XGames"> À (re)voir absolument !</a><br>La compétition de Pacifio Skateboard Vert de 2021</p>
                 </div>
             </div>
         </div>
@@ -42,6 +43,14 @@
     </div>
 </div>
 <!--Fin carousel-->
+
+<script>
+    // Fonction pour faire défiler automatiquement les slides toutes les 7 secondes
+    function autoScroll() {
+        $('#carouselExampleCaptions').carousel('next');
+    }
+    setInterval(autoScroll, 7000);
+</script>
 <p class="consulte">LES NOUVEAUTÉS</p>
 <?php
 afficherNouveautes($data);
