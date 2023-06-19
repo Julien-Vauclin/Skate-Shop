@@ -1,22 +1,16 @@
 <?php
-
 require "../models/data.php";
-
 include "../views/home.php";
 // Boucle affichage articles
 include('../models/data.php');
-
-// Parcourir les données dans la variable $data
 function afficherProduits($data)
 {
     echo '<div class="row mx-0 rangee">';
     foreach ($data as $category => $items) {
-        echo '<h2>' . ucfirst($category) . '</h2>'; // Afficher le nom de la catégorie en majuscule
+        echo '<h2>' . ucfirst($category) . '</h2>';
 
         foreach ($items as $subCategory => $subItems) {
-            echo '<h3>' . ucfirst($subCategory) . '</h3>'; // Afficher le nom de la sous-catégorie en majuscule
-
-            // Parcourir les éléments de la sous-catégorie
+            echo '<h3>' . ucfirst($subCategory) . '</h3>';
             foreach ($subItems as $item) {
                 echo '<div class="card col-md-6 col-sm-12 col-lg-4 my-3">';
                 echo '<img class="image card-img-top" src="' . $item['img'] . '">';
@@ -71,7 +65,7 @@ function afficherAccueil($data)
     };
     echo '</div>';
 };
-//
+// Fonction pour afficher "Les Nouveautés"
 function afficherNouveautes($data)
 {
     echo '<div class="row mx-0 rangee">';
@@ -91,10 +85,10 @@ function afficherNouveautes($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -117,10 +111,10 @@ function afficherAccessoires($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -143,10 +137,10 @@ function afficherPlanches($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -173,10 +167,10 @@ function showHauts($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -203,10 +197,10 @@ function showPantalon($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -233,10 +227,10 @@ function showShoes($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -263,10 +257,10 @@ function showChapeaux($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -294,10 +288,10 @@ function showWax($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -324,10 +318,10 @@ function showBearings($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -354,10 +348,10 @@ function showGrip($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -384,10 +378,10 @@ function showRoues($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -414,10 +408,10 @@ function showTool($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
@@ -444,10 +438,10 @@ function showTrucks($data)
                     echo '<img class="image card-img-top" src="' . $downvaleur['img'] . '">';
                     echo '<br>';
                     echo '<div class="card-body">';
-                    echo '<p class="card-title">' . strtoupper($downvaleur['brand']) . '</p>';
+                    echo '<p class="marque card-title">' . strtoupper($downvaleur['brand']) . '</p>';
                     echo '<p class="card-title">' . $downvaleur['name'] . '</p>';
                     echo '<br>';
-                    echo '<p class="card-text">' . $downvaleur['price'] . '</p>';
+                    echo '<p class="prix card-text">' . $downvaleur['price'] . '</p>';
                     echo '<a href="#" class="btn btn-primary">Découvrir</a>';
                     echo '</div>';
                     echo '</div>';
