@@ -42,13 +42,11 @@
     </div>
 </div>
 <!--Fin carousel-->
-<p class="consulte">LES NOUVEAUTÉS</p>
 <?php
-afficherNouveautes($data);
-?>
-<p class="consulte">ARTICLES LES PLUS CONSULTÉS</p>
-<?php
-afficherAccueil($data);
+ob_start();
+require_once "../controllers/controller-home.php";
+ob_get_clean();
+afficherPlanches($data);
 ?>
 <!--footer-->
 <?php include "components/footer.php" ?>
